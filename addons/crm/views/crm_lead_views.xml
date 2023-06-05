@@ -314,8 +314,8 @@
                                         <field name="source_id" />
                                     </group>
                                     <group string="Misc" name="Misc">
-                                        <field name="day_open" groups="base.group_no_one"/>
-                                        <field name="day_close" groups="base.group_no_one"/>
+                                        <field name="day_open" groups="base.group_no_one" force_save="1"/>
+                                        <field name="day_close" groups="base.group_no_one" force_save="1"/>
                                         <field name="referred"/>
                                         <field name="type" invisible="1"/>
                                     </group>
